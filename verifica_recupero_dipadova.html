@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Ho assegnato il titolo ed aggiunto i tag per la codifica dei caratteri e per la visualizzazione sui diversi dispositivi-->
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="box-model2.css">
+<!--Rispondo alla domanda  del file esterno-->
+  <title>Di Padova Federico</title>
+  <style> 
+table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+} 
+td, th {
+         border: 1px solid #dddddd;
+         text-align: left;
+         padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #aaaaaa;
+    }
+    </style> 
+</head>
+<body>
+<!--Ho assegnato l'intestazione e agginto immagini e link esterni-->
+<h1> Le moto</h1>
+<p>Tutto quello che devi sapere sulle due ruote:<a href="https://www.moto.it/" target="_blank"> le moto</a></p>
+<a href="https://www.tmracing.it/" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V2wiOSd09XAhPZlXdSL2GtxOVPhMz40AOA&usqp=CAU" style="max-width:20%;height:auto;" alt="TM smr 2023"></a>
+<div>
+<h1>I Motard</h1>
+<p style="border: none" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
+Aenean commodo ligula eget dolor. Aenean massa. <br>
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br>
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br></p>
+</div>
+<!--Ho aggiunto la tabella e liste-->
+<h2> TABELLA</h2>
+<table>
+
+   <tr>
+   <th>colonna1</th>
+   <th>colonna2</th>
+   <th>colonna3</th>
+  </tr>
+    <tr>
+    <td><ol>
+<li style="color:green;"> ktm </li>
+<li style="color:red;"> yz </li>
+<li style="color:black;"> gasgas </li></ol></td>
+    <td><ul>
+<li style="font-size:1vw">scarico</li>
+<li style="font-size:1vw">centralina</li>
+<li style="font-size:1vw">pancia</li>
+</ul></td>
+<td><ul>
+<li style="font-size:1vw">plastiche</li>
+<li style="font-size:1vw">grafiche</li>
+<li style="font-size:1vw">faro</li>
+</ul></td>
+  </tr>
+   <tr>
+    <td><ol>
+<li style="color:blue;"> husky </li>
+<li style="color:purple;"> ymrz </li>
+<li style="color:orange;"> fortnite </li></ol></td>
+    <td><ul>
+<li style="font-size:1vw">pistone</li>
+<li style="font-size:1vw">cilindro</li>
+<li style="font-size:1vw">carburatore</li>
+</ul></td>
+<td><ul>
+<li style="font-size:1vw">manubrio</li>
+<li style="font-size:1vw">freni</li>
+<li style="font-size:1vw">pinze</li>
+</ul></td>
+  </tr>
+  </table>
+  <!--RIsponda alla domanda  di iframe-->
+ <h1>Il mio video di YouTube </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PZBYnt7_Btc?si=Cdiws3LtLh2HPnPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<!--Ho aggiunto l'oggetto dinamico-->
+<p> Se clicchi il bottone qua sotto, cambia il contenuto del testo.</p>
+<button type="button" onclick="myFunction2()">Clicca per modificare il contenuto del testo</button>
+<p id="demo"> Viva fortnite</p>
+<script>
+function myFunction2() {
+ document.getElementById("demo").innerHTML= "L'esercizio si svolge da solo";
+ }
+ </script>
+ <br>
+ <!--Ho aggiunto la mappa immagine-->
+ <h2>Mappa Immagine</h2>
+
+
+<img src="https://www.trueriders.it/media/2023/07/velocita.jpg&sharpen&save-as=webp&crop-to-fit&w=1200&h=800&q=76" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="750,166" alt="moto" href="https://www.energekoveicolielettrici.it/wp-content/uploads/2021/06/supersoco-tsx-l3.jpg">
+  <area shape="rect" coords="337,376" alt="strada" href="https://static.sevendaysweb.com/1859/2019/07/23/143553/anas2-600.scale-to-max-width.800x.png">
+  <area shape="circle" coords="433,298" alt="montagna" href="https://www.turismoweekend.com/wp-content/uploads/2018/10/weekend-montagna-760x510.jpg">
+</map>
+</body>
+</html>
